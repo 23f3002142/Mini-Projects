@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboSpeaker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RoboSpeaker</h1>
+            <p>Created by Kshitij Nigam</p>
+        </header>
+        <main>
+            <p class="instruction">Enter text for the RoboSpeaker to say:</p>
+            <textarea id="textInput" placeholder="Type your text here..."></textarea>
+            <div class="button-container">
+                <button id="speakButton" onclick="speak()">Speak</button>
+                <button id="stopButton" onclick="stop()">Stop</button>
+                <button id="clearButton" onclick="clearText()">Clear</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 RoboSpeaker. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
